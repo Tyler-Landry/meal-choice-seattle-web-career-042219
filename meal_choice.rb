@@ -1,7 +1,3 @@
-def meal_choice(food)
-  if (food == "")
-    puts "meat"
-  else 
-    puts "food"
-  end
+def meal_choice(food = "meat")
+  food
 end
