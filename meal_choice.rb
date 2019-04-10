@@ -1,7 +1,7 @@
 def meal_choice(food)
-  if (food != "meat")
-    puts food
-  else 
+  if (food == "")
     puts "meat"
+  else 
+    puts "food"
   end
 end
